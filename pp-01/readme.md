@@ -33,9 +33,10 @@ remote GitHub repository. Follow the steps below exactly to receive full credit.
 
 3. You can now change directories into `fwd-production-problems` and then the `pp-01` directory,
    where you should now have this file, `readme.md`, on your local computer. Open the file in your
-   editor, and write below the URL to your fork of the GitHub repository, and the add and commit:
+   editor, and write below the URL to your fork of the GitHub repository, and then add and commit:
 
    My Production Problems repository URL:
+https://github.com/antheagonzalez/fwd-production-problems
 
 4. Next, push your commit to GitHub. `git push origin master` from your command line.
 
