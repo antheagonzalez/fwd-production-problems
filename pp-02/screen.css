@@ -26,7 +26,11 @@ h2 {
 }
 
 /* h3, h4*/
-
+h3 {
+  /*Top, Right, Bottom, Left*/
+  padding: 1.222em 0 0 0;
+  font-size: normal;
+}
 /* ul */
 
 /* #footer */
