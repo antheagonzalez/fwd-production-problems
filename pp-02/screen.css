@@ -17,13 +17,10 @@ html {
 h1 {
   /*Top, Right, Bottom, Left*/
   padding: 1.222em 0 0 0;
+  font-weight: bolder;
 }
 
-h2 {
-  /*Top, Right, Bottom, Left*/
-  padding: 1.222em;
 
-}
 /* h3, h4*/
 
 /* ul */
