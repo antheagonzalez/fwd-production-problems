@@ -13,7 +13,7 @@ html {
   font-size: 1.125em;
   line-height: 1.22em;
   padding: 0 1 em;
-
+  background-image: url(pp-02-background.png);
 }
 /* h1 */
 h1 {
