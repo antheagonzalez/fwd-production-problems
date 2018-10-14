@@ -12,6 +12,7 @@ to read One, Two, Three in the browser.
 2. Still at mobile scale, use the vw (viewport width) unit to size the `<section>` elements as
 squares that resize with the viewport. (Hint: you need to set `height` to accomplish this.)
 
+## Change it to look like down below when the screen gets bigger than 600px
 3. At the 600px break point, inside the media query change the flex box so that One and Two each
 take up half the viewport but remain as squares sitting side-by-side, while Three sits below them
 and takes up the entire viewport. An arrangement like this:
@@ -19,6 +20,7 @@ and takes up the entire viewport. An arrangement like this:
     | One | Two |
     | Three     |
 
+## Change it to look like described down below when the screen gets bigger than 600px
 4. Finally, at the 800px break point, have all three boxes display as squares in One, Two, Three
 order, spread equally across the entire viewport.
 
