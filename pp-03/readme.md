@@ -4,9 +4,11 @@ Using CSS Flexbox (refer to https://css-tricks.com/snippets/css/a-guide-to-flexb
 flexbox documentation at Mozilla Developer Network, MDN) in the `screen.css` file in the `pp-03/`
 directory to style the `index.html` file according to the following prompts:
 
+## Put in numerical order
 1. At mobile scale (outside of any media query), use flexbox to reorder the `<section>` elements
 to read One, Two, Three in the browser.
 
+## Make three squares
 2. Still at mobile scale, use the vw (viewport width) unit to size the `<section>` elements as
 squares that resize with the viewport. (Hint: you need to set `height` to accomplish this.)
 

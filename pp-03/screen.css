@@ -8,7 +8,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* ===== BASE STYLES ===== */
-
+/*use section tag in mod 2, one thing, add section tag*/
+section {
+  height: 25 vw;
+}
 /* ==== MODULAR STYLES === */
 #three,
 #two,
@@ -28,18 +31,20 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* ==== LAYOUT STYLES ==== */
 #content {
-
+  display: flex;
+  flex-flow: row-reverse;
 }
 
 #three,
 #two,
 #one {
-
+  flex: 1 0 auto;
 }
 
 @media screen and (min-width: 600px) {
 
 }
+
 
 @media screen and (min-width: 800px) {
 
