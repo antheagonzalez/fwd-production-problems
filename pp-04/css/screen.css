@@ -8,14 +8,18 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* ===== BASE STYLES ===== */
 
-
 img {
   display: block;
   max-width: 100%;
 }
 
 body {
-  padding: 10%;
+  padding: 20%;
+}
+
+#newPlayButton {
+  background: #00FA9A;
+  height: 150px;
 }
 
 /* ===== LAYOUT STYLES ===== */
