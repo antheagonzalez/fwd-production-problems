@@ -17,7 +17,6 @@ console.log('The value of x is:', x, 'It should be 5.');
 //  namespace (e.g., neither its variables nor the double
 //  function can be accessed via the `window` global object,
 //  like `window.x`):
-// use old ?
 
 (function (){
   var x = 5;
@@ -36,6 +35,7 @@ console.log('The value of x is:', x, 'It should be 5.');
 //  the global scope:
 
 function arrayEach(array, func) {
+  var i = 0;
   for (i = 0; i < array.length; i++) {
     func(array[i]);
   }
