@@ -49,6 +49,12 @@ console.log(i) // should be 'undefined', not 3
 //  variable x declared on line 5 above. Write your explanation
 //  as JavaScript comments.
 
+// This funtion does not modify the global
+// variable x declared on line 5 because
+// the function is delcaring "x" as a local variable
+// so the function is returning the local "x" variable
+// declared in teh function
+
 function addTwo(x) {
   x = x + 2;
   return x;
